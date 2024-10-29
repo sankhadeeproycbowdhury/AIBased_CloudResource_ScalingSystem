@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-socket-server
+spec:
+  replicas: 3 
+  selector:
+    matchLabels:
+      app: my-socket-server
+  template:
+    metadata:
+      labels:
+        app: my-socket-server
+    spec:
+      containers:
+      - name: my-socket-server
+        image: sarim02/my-socket-server:latest
+        ports:
+        - containerPort: 65432
+        env:
+        - name: DATABASE_PATH
+          value: /app/data.db
