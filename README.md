@@ -9,15 +9,15 @@
 
 ### First start Docker Engin or Docker Desktop
 ### Then run following Commands in terminal(inside Docker File) :
-1 minikube star 
-2 kubectl get nodes
-3 kubectl apply -f deployment.yaml 
-4 kubectl apply -f service.yaml 
+#### 1 minikube star 
+#### 2 kubectl get nodes
+#### 3 kubectl apply -f deployment.yaml 
+#### 4 kubectl apply -f service.yaml 
 verify using kubectl get deployments or kubectl get pods or kubectl get services. Preinstall Docker, Minikube and kubectl
 
 ### pip install all requiremensts in requirements.txt file, then Run ( inside Ai model File) 
-python main2.py 
-python Graph.py
+#### python main2.py 
+#### python Graph.py
 one after Another.
 main2 runs the actual model and scalling program, Graph is for graphical vizualization of CPU usage percentage prediction.
 
