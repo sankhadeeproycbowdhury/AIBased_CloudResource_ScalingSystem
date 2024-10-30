@@ -1,6 +1,6 @@
-# AIBased_CloudResource_ScalingSystem
+# AIDreiven_CloudResource_ScalingSystem
 
-## AI model, designed on pretrained data as well as simuultaneous real-time data. Predicts the future CPU usage percentage of a server running on a cloud in every 1 min thus giving the future prediction of evry 10 min in a sliding window pattern ( time for traning and future prediction window size are flexible)
+## AI model, designed on pretrained data as well as simultaneous real-time data. Predicts the future CPU usage percentage of a server running on a cloud in every 1 min thus giving the future prediction of evry 10 min in a sliding window pattern ( time for traning and future prediction window size are flexible)
 
 ## Thus the server docker image and Ai model Docker image are pushed in docker hub and fetched in real time according to the predictions of AI model in order to scale up or down as per need. The images are runned on a local kubernettes clusters runnig at localhost's virtual enviroment. In future they can be ran on real cluster as well.
 
